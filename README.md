@@ -1,1 +1,1 @@
-My write up for CTFs
+My write-up for CTFs
