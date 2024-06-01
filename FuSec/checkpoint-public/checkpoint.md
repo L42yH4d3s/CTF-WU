@@ -1,4 +1,5 @@
 checkpoint
+
 ![image](img/img1.jpeg)
 # 1. Brainstorm
 ## Hướng tiếp cận
