@@ -1,0 +1,20 @@
+extends base.pug
+
+block content
+    div.container.my-5
+        div.text-center
+            h1 Login
+
+        div.container.w-50.my-5
+            div.mb-3
+                label.form-label(for="username") Username
+                input.form-control(type="text" name="username" id="username")
+            div.mb-3
+                label.form-labell(for="password") Password
+                input.form-control(type="password" name="password" id="password")
+            button(elevation="2" id="submit") Login
+
+            p Don't have an account? 
+                a(href="/register") Register
+
+    script(src="static/signin.js")
