@@ -11,11 +11,11 @@ Hướng tiếp cận là đi từ file index.js ở client-side tới wsHandler
 
 Hàm formHandler là hàm lấy giá trị từ form và gửi tới websocket
 
-![image](/img/img3.png)
+![image](img/img3.png)
 
 Dữ liệu này sẽ được xử lý ở wsHandler.js 
 
-![image](/img/img4.png)
+![image](img/img4.png)
 
 #### Ở action là add thì trường description và title sẽ được nối chuỗi trực tiếp vào bằng Template Strings và không có filter gì cả → Có thể khai thác
 
@@ -23,7 +23,7 @@ Dữ liệu này sẽ được xử lý ở wsHandler.js
 
 #### Khi vào database.js thì ta thấy task sẽ được truyền vào hàm exec() (1 hàm nguy hiểm) → Bingo
 
-![image](/img/img5.png)
+![image](img/img5.png)
 
 # 2. Exploit
 
@@ -33,10 +33,10 @@ Dữ liệu này sẽ được xử lý ở wsHandler.js
 
 ## Exploit ở local
 
-![image](/img/img6.png)
+![image](img/img6.png)
 
-![image](/img/img7.png)
+![image](img/img7.png)
 
 ## Exploit ở remote
 
-![image](/img/img8.png)
+![image](img/img8.png)
