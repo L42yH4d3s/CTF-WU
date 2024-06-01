@@ -13,7 +13,7 @@ Baby SQL Injection to RCE
 
 ## Kiểm tra xem có thể thực hiện stacked query trên dbms không bằng payload:
 #### ' or 1=1; select pg_sleep(10); --
-
+![image](img/img6.jpeg)
 Oke, dính rồi
 #### --> Có thể stacked query được
 
