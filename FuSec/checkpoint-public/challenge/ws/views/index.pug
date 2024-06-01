@@ -1,0 +1,20 @@
+extends base.pug
+
+block content
+    div.container.my-5
+        div.text-center
+            h1 My Check lists
+
+        div.container.w-50.my-5
+            div#tasks
+
+            form#checkList-form
+                div.mb-3
+                    label.form-label(for="title") Title
+                    input.form-control(type="text" name="title" id="title")
+                div.mb-3
+                    label.form-labell(for="description") Description
+                    input.form-control(type="text" name="description" id="description")
+                button(elevation="2") Add to list
+
+    script(src="static/index.js")
