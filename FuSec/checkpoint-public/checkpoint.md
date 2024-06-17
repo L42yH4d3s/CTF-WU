@@ -20,7 +20,7 @@ Dữ liệu này sẽ được xử lý ở wsHandler.js
 
 #### Ở action là add thì trường description và title sẽ được nối chuỗi trực tiếp vào bằng Template Strings và không có filter gì cả → Có thể khai thác
 
-#### Ta thấy biến task chứa data được nối chuỗi vào sẽ được truyền vào addTask bởi đối tượng db (instance của class database) → Nhảy tới database.js.
+#### Ta thấy biến task chứa data được nối chuỗi vào sẽ được truyền vào method addTask của db (instance của class database) → Nhảy tới database.js.
 
 #### Khi vào database.js thì ta thấy task sẽ được truyền vào hàm exec() (1 hàm nguy hiểm) → Bingo
 
@@ -30,7 +30,7 @@ Dữ liệu này sẽ được xử lý ở wsHandler.js
 
 ## Payload
 
-{"action":"add","title":"a","description":"a `cp /flag /ws/static/hung123.txt`"}
+{"action":"add","title":"a","description":"a /`cp /flag /ws/static/hung123.txt/`"}
 
 ## Exploit ở local
 
